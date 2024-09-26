@@ -125,7 +125,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Use organic compost or balanced fertilizer (10-10-10) once a month.',
         'Harvest: You can start harvesting mint leaves after 60-90 days by pinching off leaves or stems as needed.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/1.png',
+      image: 'https://apimock-delta.vercel.app/img/1.jpg',
     },
     {
       id: 2,
@@ -146,7 +146,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Apply balanced fertilizer (5-5-5 or 10-10-10) every 3-4 weeks.',
         'Harvest: Start harvesting leaves once the plant is about 6-8 inches tall (60-75 days).',
       ],
-      image: 'https://apimock-delta.vercel.app/img/2.png',
+      image: 'https://apimock-delta.vercel.app/img/2.jpg',
     },
     {
       id: 3,
@@ -167,7 +167,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Use cactus fertilizer or a balanced fertilizer (10-40-10) once a year during spring or summer.',
         'Harvest: Harvest leaves after 2-3 years of growth by cutting mature outer leaves.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/3.png',
+      image: 'https://apimock-delta.vercel.app/img/3.jpg',
     },
     {
       id: 4,
@@ -188,7 +188,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Apply organic compost or balanced fertilizer (5-5-5) monthly during the growing season.',
         'Harvest: Harvest thyme leaves after 70-90 days by snipping small sprigs.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/4.png',
+      image: 'https://apimock-delta.vercel.app/img/4.jpg',
     },
     {
       id: 5,
@@ -209,7 +209,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Use a balanced fertilizer (10-10-10) or strawberry-specific fertilizer every 4-6 weeks.',
         'Harvest: Harvest strawberries 90-120 days after planting when the fruit is red and fully ripe.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/5.png',
+      image: 'https://apimock-delta.vercel.app/img/5.jpg',
     },
     {
       id: 6,
@@ -230,7 +230,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Apply a balanced fertilizer (10-10-10) or a high-potassium fertilizer every 2-3 weeks.',
         'Harvest: Harvest tomatoes 60-100 days after planting, depending on the variety, when the fruit is firm and fully colored.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/6.png',
+      image: 'https://apimock-delta.vercel.app/img/6.jpg',
     },
     {
       id: 7,
@@ -251,7 +251,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Apply a balanced fertilizer (10-10-10) every 4-6 weeks.',
         'Harvest: Harvest parsley after 70-90 days by cutting the outer leaves.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/7.png',
+      image: 'https://apimock-delta.vercel.app/img/7.jpg',
     },
     {
       id: 8,
@@ -272,7 +272,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Use a nitrogen-rich fertilizer (10-10-10) every 3-4 weeks.',
         'Harvest: Harvest green onions 60-70 days after planting when the leaves reach 6-8 inches tall.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/8.png',
+      image: 'https://apimock-delta.vercel.app/img/8.jpg',
     },
     {
       id: 9,
@@ -293,7 +293,7 @@ router.get('/plants', (req, res) => {
         'Fertilize: Apply organic compost or balanced fertilizer (5-10-10) before planting and again during mid-growth.',
         'Harvest: Harvest peas 60-70 days after planting when the pods are plump and green.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/9.png',
+      image: 'https://apimock-delta.vercel.app/img/9.jpg',
     },
     {
       id: 10,
@@ -314,7 +314,7 @@ router.get('/plants', (req, res) => {
         'Fertilizing: Use a balanced fertilizer (10-10-10) or organic compost every 4-6 weeks.',
         'Harvesting: Harvest when leaves begin to yellow, around 8-10 months after planting.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/10.png',
+      image: 'https://apimock-delta.vercel.app/img/10.jpg',
     },
     {
       id: 11,
@@ -335,7 +335,7 @@ router.get('/plants', (req, res) => {
         'Mulch: Apply mulch to retain moisture and suppress weeds.',
         'Harvesting: Harvest when leaves turn yellow and dry, approximately 8-9 months after planting.',
       ],
-      image: 'https://apimock-delta.vercel.app/img/11.png',
+      image: 'https://apimock-delta.vercel.app/img/11.jpg',
     },
     {
       id: 12,
@@ -356,7 +356,7 @@ router.get('/plants', (req, res) => {
         'Mulch: Apply mulch to help retain moisture and suppress weeds.',
         'Harvest: Harvest leaves as needed or cut heads when mature, usually 30-70 days after planting. ',
       ],
-      image: 'https://apimock-delta.vercel.app/img/12.png',
+      image: 'https://apimock-delta.vercel.app/img/12.jpg',
     },
   ];
   res.json(plants);

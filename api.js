@@ -7,6 +7,7 @@ const router = express.Router();
 router.get('/fertilizers', (req, res) => {
   const fertilizers = [
     {
+      id: 1,
       name: 'Compost',
       definition:
         'Decomposed organic matter (kitchen scraps, leaves, grass clippings).',
@@ -16,22 +17,85 @@ router.get('/fertilizers', (req, res) => {
         'Mix into the soil before planting or top-dress around plants during the growing season.',
     },
     {
-      name: 'Compost',
-      definition:
-        'Decomposed organic matter (kitchen scraps, leaves, grass clippings).',
+      id: 2,
+      name: 'Coffee Grounds',
+      definition: 'Used coffee grounds from brewing.',
       benefits:
-        'Provides a balanced range of nutrients and improves soil structure.',
+        'Rich in nitrogen, improves soil structure, and attracts beneficial earthworms.',
       instructions:
-        'Mix into the soil before planting or top-dress around plants during the growing season.',
+        'Spread a thin layer around the base of plants or mix into compost.',
     },
     {
-      name: 'Compost',
-      definition:
-        'Decomposed organic matter (kitchen scraps, leaves, grass clippings).',
+      id: 3,
+      name: 'Eggshells',
+      definition: 'Crushed or powdered eggshells.',
       benefits:
-        'Provides a balanced range of nutrients and improves soil structure.',
+        'High in calcium, which helps strengthen plant cell walls and prevent diseases like blossom-end rot (in tomatoes).',
       instructions:
-        'Mix into the soil before planting or top-dress around plants during the growing season.',
+        'Crush or grind shells and sprinkle around plants or add to compost.',
+    },
+    {
+      id: 4,
+      name: 'Banana Peels',
+      definition: 'Decomposing banana peels.',
+      benefits:
+        'Rich in potassium, phosphorus, and calcium, which help with fruiting and flowering.',
+      instructions:
+        'Chop up and bury near the base of plants or add to compost.',
+    },
+    {
+      id: 5,
+      name: 'Epsom Salt',
+      definition: 'A natural source of magnesium sulfate.',
+      benefits:
+        'Provides magnesium and sulfur, which are essential for plant growth, improving chlorophyll production and nutrient absorption.',
+      instructions:
+        'Dissolve 1 tablespoon in 4 liters of water and water plants every few weeks.',
+    },
+    {
+      id: 6,
+      name: 'Fish Emulsion',
+      definition: 'A liquid fertilizer made from decomposed fish.',
+      benefits:
+        'Rich in nitrogen, phosphorus, and potassium; promotes lush green growth.',
+      instructions:
+        'Dilute according to package instructions and apply as a foliar spray or soil drench.',
+    },
+    {
+      id: 7,
+      name: 'Wood Ash',
+      definition: 'Ash from burned, untreated wood.',
+      benefits:
+        'Rich in potassium and calcium carbonate; raises soil pH for acid-loving plants.',
+      instructions:
+        'Sprinkle a small amount around plants or mix into compost.',
+    },
+    {
+      id: 8,
+      name: 'Seaweed',
+      definition: 'Dried or fresh seaweed.',
+      benefits:
+        'Contains trace minerals and growth hormones that improve plant vigor.',
+      instructions:
+        'Make seaweed tea by soaking it in water for a few days, then use the liquid to water plants.',
+    },
+    {
+      id: 9,
+      name: 'Molasses',
+      definition: 'A byproduct of sugar production.',
+      benefits:
+        'Rich in potassium, calcium, and iron; helps feed beneficial soil microbes.',
+      instructions:
+        'Dilute 1 tablespoon in 4 liters of water and apply to the soil.',
+    },
+    {
+      id: 10,
+      name: 'Manure (Aged)',
+      definition: 'Animal manure (from cows, chickens, horses) that has been composted.',
+      benefits:
+        'Adds organic matter and nutrients like nitrogen, phosphorus, and potassium.',
+      instructions:
+        'Incorporate into the soil well before planting, or use as a top-dressing during the growing season.',
     },
   ];
   res.json(fertilizers);

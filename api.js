@@ -112,6 +112,7 @@ router.get('/fertilizers', (req, res) => {
 
 // plants
 router.get('/plants', (req, res) => {
+  let message;
   const plants = [
     {
       id: 1,
@@ -367,7 +368,16 @@ router.get('/plants', (req, res) => {
       image: 'https://apimock-delta.vercel.app/img/12.jpg',
     },
   ];
-  res.json(plants);
+
+   if (plants && plants.length > 0) {
+    message = 'success';
+    res.status(200).json({ message, fertilizers });
+  } else {
+    message = 'failure';
+    res.status(500).json({ message });
+  }
+  
+
 });
 
 module.exports = router;

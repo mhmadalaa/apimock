@@ -5,6 +5,7 @@ const router = express.Router();
 
 // fertilizers
 router.get('/fertilizers', (req, res) => {
+  let message;
   const fertilizers = [
     {
       id: 1,
@@ -99,7 +100,14 @@ router.get('/fertilizers', (req, res) => {
         'Incorporate into the soil well before planting, or use as a top-dressing during the growing season.',
     },
   ];
-  res.json(fertilizers);
+   if (fertilizers && fertilizers.length > 0) {
+    message = 'success';
+    res.status(200).json({ message, fertilizers });
+  } else {
+    message = 'failure';
+    res.status(500).json({ message });
+  }
+ 
 });
 
 // plants

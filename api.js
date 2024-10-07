@@ -371,7 +371,7 @@ router.get('/plants', (req, res) => {
 
    if (plants && plants.length > 0) {
     message = 'success';
-    res.status(200).json({ message, fertilizers });
+    res.status(200).json({ message, plants });
   } else {
     message = 'failure';
     res.status(500).json({ message });

@@ -120,7 +120,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '60 - 90 days',
       'watering freq':
         'Water regularly; keep the soil consistently moist, about 2-3 times per week.',
-      'watering amount': '16 - 33 ml of water weekly',
+      'watering amount': '16 - 33 ml weekly',
       fertilizer:
         'Organic compost or balanced fertilizer (10-10-10) once a month.',
       'fertilization cycle': ' Once per growing season.',

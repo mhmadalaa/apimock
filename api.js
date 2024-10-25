@@ -120,7 +120,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '60 - 90 days',
       'watering freq':
         'Water regularly; keep the soil consistently moist, about 2-3 times per week.',
-      'watering amount': '16 - 33 ml weekly',
+      'watering amount': '600 - 1000 ml weekly',
       fertilizer:
         'Organic compost or balanced fertilizer (10-10-10) once a month.',
       'fertilization cycle': ' Once per growing season.',
@@ -142,7 +142,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '60-75 days',
       'watering freq':
         'Water regularly; avoid waterlogging, 2-3 times per week.',
-      'watering amount': '16 - 33 ml of water per week.',
+      'watering amount': '600 - 900 ml of water per week.',
       fertilizer: 'Balanced fertilizer (5-5-5 or 10-10-10) every 3-4 weeks.',
       'fertilization cycle': 'Twice during the growing season.',
       soil: 'Well-drained, rich, moist soil.',
@@ -184,7 +184,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '70-90 days',
       'watering freq':
         'Water regularly; avoid waterlogging, 2-3 times per week.',
-      'watering amount': '1 inch of water every 10-15 days.',
+      'watering amount': '50 - 100 ml per week ',
       fertilizer: 'Organic compost or balanced (5-5-5) once a month.',
       'fertilization cycle': 'Once a month during the growing season.',
       soil: 'Well-drained, slightly alkaline soil.',
@@ -205,7 +205,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '90-120 days',
       'watering freq':
         'Water deeply 2-3 times per week.',
-      'watering amount': '16-25 ml  of water per week.',
+      'watering amount': '300 - 400 ml  of water per week.',
       fertilizer: 'Balanced (10-10-10) or a fertilizer specifically for strawberries, once every 4-6 weeks.',
       'fertilization cycle': 'Every 4-6 weeks during growing season.',
       soil: 'Well-drained, sandy loam soil.',
@@ -226,7 +226,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '60-100 days (depending on variety)',
       'watering freq':
         'Water deeply 1-2 times per week.',
-      'watering amount': '16 - 25 ml of water per week.',
+      'watering amount': '500 - 700 ml of water per week.',
       fertilizer: 'Balanced fertilizer (10-10-10) or high-potassium fertilizer, every 2-3 weeks.',
       'fertilization cycle': 'Every 2-3 weeks during the growing season.',
       soil: 'Well-drained, rich, moist soil.',
@@ -247,7 +247,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '70-90 days',
       'watering freq':
         'Water regularly, keeping the soil moist, 2-3 times per week.',
-      'watering amount': '16 - 33 ml of water per week.',
+      'watering amount': '200 - 300 ml of water per week.',
       fertilizer: 'Balanced (10-10-10) or organic fertilizer every 4-6 weeks.',
       'fertilization cycle': 'Every 4-6 weeks during the growing season.',
       soil: 'Well-drained, rich soil.',
@@ -268,7 +268,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '60-70 days',
       'watering freq':
         'Water regularly, 2-3 times per week.',
-      'watering amount': '16-33 ml of water per week.',
+      'watering amount': '200-300 ml of water per week.',
       fertilizer: 'Nitrogen-rich fertilizer (e.g., 10-10-10) every 3-4 weeks.',
       'fertilization cycle': 'Every 3-4 weeks during growing season.',
       soil: 'Well-drained, loamy soil.',
@@ -289,7 +289,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '60-70 days',
       'watering freq':
         'Water regularly, 2-3 times per week.',
-      'watering amount': '16 - 25 ml of water per week.',
+      'watering amount': '300 - 400 ml of water per week.',
       fertilizer: 'Organic compost or balanced (5-10-10) before planting and once during mid-growth.',
       'fertilization cycle': 'Twice during the growing season.',
       soil: 'Well-drained, fertile soil.',
@@ -310,7 +310,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '8-10 months',
       'watering freq':
         'Water deeply 2-3 times per week; keep soil consistently moist but not waterlogged.',
-      'watering amount': '16 - 25 ml of water per week.',
+      'watering amount': '200 - 300 ml of water per week.',
       fertilizer: 'Organic compost or balanced fertilizer (10-10-10) every 4-6 weeks.',
       'fertilization cycle': 'Every 4-6 weeks during growing season.',
       soil: 'Well-drained, loamy or sandy soil rich in organic matter.',
@@ -331,7 +331,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '180-210 days',
       'watering freq':
         'Water every 7-10 days during dry periods; reduce watering as it approaches maturity.',
-      'watering amount': '16 ml of water per week.',
+      'watering amount': '200 - 300 ml of water per week.',
       fertilizer: 'High-nitrogen fertilizer (e.g., 10-10-10) in early growth, phosphorus-rich fertilizer for bulb development.',
       'fertilization cycle': 'Once at planting, and again during mid-growth.',
       soil: 'Well-drained, fertile soil with high organic content.',
@@ -352,7 +352,7 @@ router.get('/plants', (req, res) => {
       'days-to-harvest': '45-55 days',
       'watering freq':
         'Water regularly, about 2-3 times per week.',
-      'watering amount': '16 - 25 ml of water per week; keep the soil moist but not waterlogged.',
+      'watering amount': '300 - 400 ml of water per week; keep the soil moist but not waterlogged.',
       fertilizer: 'Nitrogen-rich fertilizer (e.g., 10-10-10) or organic compost every 2-4 weeks.',
       'fertilization cycle': 'Every 2-4 weeks during the growing season.',
       soil: 'Well-drained, loose, fertile soil with high organic matter.',
